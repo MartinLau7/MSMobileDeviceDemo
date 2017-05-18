@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MSMobileDeviceManager.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,12 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:kMSDeviceConnectedNotification object:[MSMobileDeviceManager sharedManager] queue:nil usingBlock:^(NSNotification * _Nonnull note) {
+        
+        NSLog(@"%@", note.userInfo);
+    }];
+    
 }
 
 

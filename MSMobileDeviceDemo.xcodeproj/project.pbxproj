@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8DDF2A1ECDDC31001236C8 /* MSMobileDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DDF291ECDDC31001236C8 /* MSMobileDeviceManager.m */; };
 		8DEFD4541E7DBA60008236C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEFD4531E7DBA60008236C9 /* AppDelegate.m */; };
 		8DEFD4571E7DBA60008236C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEFD4561E7DBA60008236C9 /* main.m */; };
 		8DEFD4591E7DBA60008236C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DEFD4581E7DBA60008236C9 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D8DDF281ECDDC31001236C8 /* MSMobileDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMobileDeviceManager.h; sourceTree = "<group>"; };
+		8D8DDF291ECDDC31001236C8 /* MSMobileDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMobileDeviceManager.m; sourceTree = "<group>"; };
 		8DEFD44F1E7DBA60008236C9 /* MSMobileDeviceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSMobileDeviceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEFD4521E7DBA60008236C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DEFD4531E7DBA60008236C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				8DEFD4651E7DBC50008236C9 /* MSMobileDevice.h */,
+				8D8DDF281ECDDC31001236C8 /* MSMobileDeviceManager.h */,
+				8D8DDF291ECDDC31001236C8 /* MSMobileDeviceManager.m */,
 			);
 			path = MSMobileDevice;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 			files = (
 				8DEFD4571E7DBA60008236C9 /* main.m in Sources */,
 				8DEFD4541E7DBA60008236C9 /* AppDelegate.m in Sources */,
+				8D8DDF2A1ECDDC31001236C8 /* MSMobileDeviceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +334,7 @@
 				8DEFD4621E7DBA60008236C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

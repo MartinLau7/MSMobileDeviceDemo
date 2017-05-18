@@ -29,7 +29,9 @@ extern "C" {
 #include <CoreFoundation/CoreFoundation.h>
 #include <mach/error.h>
     
-#import "MSMobileDeviceMacro.h"
+//#import "MSMobileDeviceMacro.h"
+    
+    typedef uint32_t kAMDError;
 #endif
     
     
